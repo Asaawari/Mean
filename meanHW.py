@@ -1,0 +1,16 @@
+print("Find The Mean!")
+tot = int(input("How many numbers do you have? (min=5, max=10) - "))
+num1 = int(input("The first number - "))
+num2 = int(input("The second number - "))
+num3 = int(input("The third number - "))
+num4 = int(input("The fourth number - "))
+num5 = int(input("The fifth number - "))
+num6 = int(input("The sixth number (write 0 if not applicable) - "))
+num7 = int(input("The seventh number (write 0 if not applicable) - "))
+num8 = int(input("The eighth number (write 0 if not applicable) - "))
+num9 = int(input("The ninth number (write 0 if not applicable) - "))
+num10 = int(input("The tenth number (write 0 if not applicable) - "))
+add = num1+num2+num3+num4+num5+num6+num7+num8+num9+num10
+divide = add/tot
+print("The mean is ")
+print(divide)
